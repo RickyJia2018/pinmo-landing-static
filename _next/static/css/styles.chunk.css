@@ -963,8 +963,8 @@
 
 .sidenav {
     height: auto;
-    max-height: 70vh;
-    width: 20vw;
+    max-height: 40vh;
+    width: 36vw;
     position: relative;
     z-index: 1;
     top: 0;
