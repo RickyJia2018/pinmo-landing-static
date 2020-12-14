@@ -973,6 +973,7 @@
     overflow-x: hidden;
     padding-top: 20px;
     /* box-shadow: 0px 0px 8px #888888; */
+    display: inline-block;
   }
   
   /* Style the sidenav links and the dropdown button */
@@ -1026,6 +1027,7 @@
       /* text-align: center; */
       padding: 30px;
       width: 100%;
+      display: inline-block;
       
   }
   ul li{
@@ -1039,6 +1041,19 @@
   }
   .react-reveal p {
     font-size: 19px;
+  }
+  .mobile-sidenav {
+    display: none;
+  }
+  @media only screen and (max-width: 600px) {
+   .sidenav{
+     display: none;
+   }
+   .mobile-sidenav{
+     display: block;
+     width: 80vw;
+     margin: auto;
+   }
   }
 /**
 * ----------------------------------------------
